@@ -4,7 +4,7 @@
 [GitHub](https://github.com/TDNResearch/TDN)
 
 ![Generated Example](assets/samples/teaser.png)
-[Terrain Diffusion Network](#stable-diffusion) is a sketch to terrain multi-denoiser diffusion model.
+[Terrain Diffusion Network](##Terrain Diffusion Network) is a sketch to terrain multi-denoiser diffusion model.
 
   
 ## Set Up
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ## Terrain Diffusion Network
 
 Current version of Terrain Diffusion Network consists of three level denoiser with a sketch encoder and a terrain encoder, showed as below
-[Architecture](assets/architecture.png)
+![Architecture](assets/architecture.png)
 
 
 ### Text-to-Image with Stable Diffusion
