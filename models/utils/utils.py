@@ -1,3 +1,7 @@
+"""
+Adapted from https://github.com/CompVis/stable-diffusion/blob/main/README.md#stable-diffusion-v1
+"""
+
 import torch
 import torch.nn as nn
 import numpy as np
