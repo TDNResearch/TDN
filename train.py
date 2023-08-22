@@ -19,7 +19,7 @@ first_config_checkpoint = {'embed_dim': 1, 'n_embed': 2500, 'learning_rate': 4.5
 cond_config_checkpoint = {'embed_dim': 1, 'n_embed': 2500, 'learning_rate': 4.5e-06, 'ckpt_path': 'YOUR_PATH_TO_TERRAINENCODER_CHECKPOINT',
  'ddconfig': {'double_z': True, 'z_channels': 1, 'resolution': 144, 'in_channels': 1, 'out_ch': 1, 'ch': 128, 'ch_mult': [1, 2, 4], 'num_res_blocks': 2, 'attn_resolutions': [], 'dropout': 0.0}, 
  'lossconfig': {'disc_start': 50001, 'kl_weight': 1e-06, 'disc_weight': 0.5},
- 'first_stage_config': first_config}
+ 'first_stage_config': first_config_checkpoint}
 UnetConfig = {
     'image_size': 32,
     'in_channels': 1,

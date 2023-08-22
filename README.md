@@ -4,7 +4,11 @@
 [GitHub](https://github.com/TDNResearch/TDN)
 
 ![Generated Example](assets/samples/teaser.png)
-[Terrain Diffusion Network](##Terrain Diffusion Network) is a sketch to terrain multi-denoiser diffusion model.
+[Terrain Diffusion Network](## Terrain Diffusion Network) is a sketch to terrain multi-denoiser diffusion model, which actively incorporates user guidance for enhanced
+controllability, taking into account terrain features like rivers, ridges, basins, and peaks. Instead of adhering to a
+conventional monolithic denoising process, which often compromises the fidelity of terrain details or the alignment with
+user control, a multi-level denoising scheme is proposed to generate more realistic terrains by taking into account finegrained
+details, particularly those related to climatic patterns influenced by erosion and tectonic activities.
 
   
 ## Set Up
@@ -34,6 +38,7 @@ Current version of Terrain Diffusion Network consists of three level denoiser wi
 We provide a sample inference sampling script:
 
 ```
+python test.py
  
 ```
 
